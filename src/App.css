@@ -8,6 +8,11 @@
   justify-content: center;
   align-items: center;
 }
+.gameName {
+  font-size: 300%;
+  text-decoration: underline;
+  text-decoration-color: #1cdcf581;
+}
 
 .row {
   display: flex;
@@ -35,14 +40,32 @@
 }
 
 .b-bottom-right {
-  border-right: 15px solid #1cdbf5;
-  border-bottom: 15px solid #1cdbf5;
+  border-right: 12px solid #1cdbf5;
+  border-bottom: 12px solid #1cdbf5;
 }
 
 .b-bottom {
-  border-bottom: 15px solid #1cdbf5;
+  border-bottom: 12px solid #1cdbf5;
 }
 
 .b-right {
-  border-right: 15px solid #1cdbf5;
+  border-right: 12px solid #1cdbf5;
+}
+.re-btn {
+  margin-top: 2%;
+  padding: 0.7rem;
+  font-family: cursive;
+  font-weight: bolder;
+  background: #bfdbfe;
+  border-color: transparent;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.re-btn:hover {
+  background-color: #131a28;
+  color: #bfdbfe;
+}
+.footer {
+  margin-top: 3%;
+  color: #1cdbf5;
 }
